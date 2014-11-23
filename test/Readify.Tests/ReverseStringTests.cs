@@ -2,6 +2,7 @@
 using System.ServiceModel;
 using Readify.Contracts;
 using Readify.Impl;
+using Readify.Service.Contracts;
 using Xunit;
 
 namespace Readify.Tests

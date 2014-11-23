@@ -1,9 +1,11 @@
 ﻿using System;
 using System.ServiceModel;
+using knockknock.readify.net;
 using log4net;
 using Readify.Contracts;
+using Readify.Service.Contracts;
 
-namespace knockknock.readify.net
+namespace Readify.Service.Impl
 {
 	[ErrorHandlerBehavior]
 	public class RedPill : IRedPill
@@ -21,19 +23,6 @@ namespace knockknock.readify.net
 			_triangleService = triangleService;
 
 			_log = LogManager.GetLogger(GetType());
-		}
-
-		public ContactDetails WhoAreYou()
-		{
-			var whoAreYou = new ContactDetails()
-			{
-				EmailAddress = "dekko.ru@gmail.com",
-				FamilyName = "Kudelia",
-				GivenName = "Aleksei",
-				PhoneNumber = "+79671821163"
-			};
-			
-			return whoAreYou;
 		}
 
 		public long FibonacciNumber(long n)

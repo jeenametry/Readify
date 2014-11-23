@@ -1,5 +1,6 @@
 ﻿using knockknock.readify.net;
 using Readify.Impl;
+using Readify.Service.Contracts;
 using Xunit;
 
 namespace Readify.Tests

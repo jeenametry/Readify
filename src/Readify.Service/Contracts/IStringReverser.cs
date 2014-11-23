@@ -1,4 +1,4 @@
-﻿namespace Readify.Contracts
+﻿namespace Readify.Service.Contracts
 {
 	public interface IStringReverser
 	{

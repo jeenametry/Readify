@@ -17,12 +17,12 @@ namespace Readify.Tests
 		[InlineData(5, 5)]
 		[InlineData(6, 8)]
 		public void Positive_Test(long n, long result)
-		{var service = GetService();
+		{
+			var service = GetService();
 
 			var actual = service.FibonacciNumber(n);
 
 			Assert.Equal(result, actual);
-
 		}
 
 		[Fact]

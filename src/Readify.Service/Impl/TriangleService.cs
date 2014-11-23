@@ -1,5 +1,6 @@
 ﻿using knockknock.readify.net;
 using Readify.Contracts;
+using Readify.Service.Contracts;
 
 namespace Readify.Impl
 {

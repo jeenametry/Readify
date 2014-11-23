@@ -2,15 +2,17 @@
 using Castle.Windsor;
 using Castle.Facilities.WcfIntegration;
 using Castle.MicroKernel.SubSystems.Configuration;
+using Readify.Service.Contracts;
+using Readify.Service.Impl;
 
-namespace Readify.Installers
+namespace Readify.Web.Installers
 {
 	public class WcfServicesInstaller : IWindsorInstaller
 	{
 		public void Install(IWindsorContainer container, IConfigurationStore store)
 		{
 			container.AddFacility<WcfFacility>();
-			container.RegisterWcfService<knockknock.readify.net.IRedPill, knockknock.readify.net.RedPill>();
+			container.RegisterWcfService<IRedPill, RedPill>();
 		}
 	}
 

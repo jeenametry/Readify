@@ -4,8 +4,9 @@ using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using Readify.Contracts;
 using Readify.Impl;
+using Readify.Service.Contracts;
 
-namespace Readify.Installers
+namespace Readify.Web.Installers
 {
 	public class ServiceInstaller : IWindsorInstaller
 	{

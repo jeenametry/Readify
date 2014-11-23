@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\ContactDetails.cs" />
     <Compile Include="Contracts\IFibonacciCalculator.cs" />
     <Compile Include="Contracts\IRedPill.cs" />
     <Compile Include="Contracts\IStringReverser.cs" />

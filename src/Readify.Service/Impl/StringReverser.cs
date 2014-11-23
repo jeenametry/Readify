@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using Readify.Contracts;
+using Readify.Service.Contracts;
 
 namespace Readify.Impl
 {
