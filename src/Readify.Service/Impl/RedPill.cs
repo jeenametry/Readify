@@ -53,7 +53,7 @@ namespace Readify.Service.Impl
 		}
 		public Guid WhatIsYourToken()
 		{
-			return Guid.Parse("43163b51-7e56-4497-b7f5-c57789a8c6b4");
+			return Guid.Parse("82833e08-c75d-4e33-8af8-052ef6a62f7a");
 		}
 	}
 }
