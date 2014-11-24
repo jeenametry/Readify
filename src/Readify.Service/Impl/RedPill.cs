@@ -1,8 +1,6 @@
 ﻿using System;
 using System.ServiceModel;
-using knockknock.readify.net;
 using log4net;
-using Readify.Contracts;
 using Readify.Service.Contracts;
 
 namespace Readify.Service.Impl

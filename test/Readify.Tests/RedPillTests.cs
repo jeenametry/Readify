@@ -1,8 +1,6 @@
 ﻿using System;
 using System.ServiceModel;
-using knockknock.readify.net;
 using Moq;
-using Readify.Contracts;
 using Readify.Service.Contracts;
 using Readify.Service.Impl;
 using Xunit;

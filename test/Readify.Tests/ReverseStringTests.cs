@@ -1,8 +1,6 @@
 ﻿using System;
-using System.ServiceModel;
-using Readify.Contracts;
-using Readify.Impl;
 using Readify.Service.Contracts;
+using Readify.Service.Impl;
 using Xunit;
 
 namespace Readify.Tests

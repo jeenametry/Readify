@@ -1,10 +1,8 @@
-﻿using Castle.Facilities.WcfIntegration;
-using Castle.MicroKernel.Registration;
+﻿using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using Readify.Contracts;
-using Readify.Impl;
 using Readify.Service.Contracts;
+using Readify.Service.Impl;
 
 namespace Readify.Web.Installers
 {

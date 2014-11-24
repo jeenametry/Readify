@@ -1,5 +1,5 @@
 ﻿using System;
-using Readify.Impl;
+using Readify.Service.Impl;
 using Xunit;
 using Xunit.Extensions;
 

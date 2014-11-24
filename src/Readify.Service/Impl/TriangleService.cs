@@ -1,8 +1,6 @@
-﻿using knockknock.readify.net;
-using Readify.Contracts;
-using Readify.Service.Contracts;
+﻿using Readify.Service.Contracts;
 
-namespace Readify.Impl
+namespace Readify.Service.Impl
 {
 	public class TriangleService:ITriangleService
 	{

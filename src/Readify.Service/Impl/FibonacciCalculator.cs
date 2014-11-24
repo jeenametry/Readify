@@ -1,7 +1,7 @@
 ﻿using System;
-using Readify.Contracts;
+using Readify.Service.Contracts;
 
-namespace Readify.Impl
+namespace Readify.Service.Impl
 {
 	public class FibonacciCalculator:IFibonacciCalculator
 	{
