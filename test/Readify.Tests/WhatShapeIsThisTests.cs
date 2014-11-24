@@ -72,7 +72,7 @@ namespace Readify.Tests
 		public void Azero_Return_Error_Test()
 		{
 			var service = GetService();
-			var result = service.WhatShapeIsThis(0,1,1);
+			var result = service.WhatShapeIsThis(0, 1, 1);
 
 			Assert.Equal(TriangleType.Error, result);
 		}
@@ -128,7 +128,7 @@ namespace Readify.Tests
 		public void AequalsB_Return_Isosceles_Test()
 		{
 			var service = GetService();
-			var result = service.WhatShapeIsThis(2,2,1);
+			var result = service.WhatShapeIsThis(2, 2, 1);
 
 			Assert.Equal(TriangleType.Isosceles, result);
 		}
@@ -173,7 +173,7 @@ namespace Readify.Tests
 		public void BigNumbers1_Test()
 		{
 			var service = GetService();
-			var result = service.WhatShapeIsThis(2147483647, 2147483647, 2147483647);
+			var result = service.WhatShapeIsThis(int.MaxValue, int.MaxValue, int.MaxValue);
 
 			Assert.Equal(TriangleType.Equilateral, result);
 		}
@@ -182,7 +182,7 @@ namespace Readify.Tests
 		public void BigNegative_Test()
 		{
 			var service = GetService();
-			var result = service.WhatShapeIsThis(-2147483648, -2147483648, -2147483648);
+			var result = service.WhatShapeIsThis(int.MinValue, int.MinValue, int.MinValue);
 
 			Assert.Equal(TriangleType.Error, result);
 		}
